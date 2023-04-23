@@ -1,0 +1,93 @@
+.newUser {
+    display: flex;
+    width: 100%;
+}
+
+.newUserContainer {
+    flex: 5;
+}
+
+.newUserContainer .top,
+.newUserContainer .bottom {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+.newUserContainer .title {
+    font-size: 20px;
+    color: lightgray;
+}
+
+.newUserContainer .left {
+    flex: 1;
+    text-align: center;
+}
+
+.newUserContainer .left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+
+.newUserContainer .right {
+    flex: 2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.formContainer {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.formInput {
+    min-width: 45%;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form .icon {
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled{
+    background-color: teal;
+    opacity: 30%;
+    cursor: not-allowed;
+}

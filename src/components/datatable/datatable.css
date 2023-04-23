@@ -1,0 +1,121 @@
+/* .MuiDataGrid-main:nth-child(2):-webkit-scrollbar {
+    width: 0 !important;
+    height: 0;
+}
+
+.MuiDataGrid-main:nth-child(2) {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+} */
+
+.datatable {
+    height: 575px;
+    padding: 20px;
+}
+
+/* testing */
+/* .datatable .MuiDataGrid-columnHeaderTitleContainer:hover,
+.datatable .MuiDataGrid-menuIcon {
+    
+} */
+
+.datatable .MuiButtonBase-root:hover {
+    border-radius: 0px;
+    color: gray;
+    background: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+
+.MuiDataGrid-columnHeaderTitle:hover .MuiButtonBase-root{
+    color: gray;
+    height: fit-content;
+    width: fit-content;
+}
+
+.datatable .MuiButtonBase-root:hover .MuiDataGrid-columnHeaderTitle {
+    color: gray;
+    height: fit-content;
+    width: fit-content;
+}
+/* testing */
+
+.datatable .title {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.datatable .title .link {
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cellWithImg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cellImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+
+.cellWithStatus {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.active {
+    color: green;
+    background-color: rgba(0, 128, 0, 0.151);
+}
+
+.passive {
+    color: crimson;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.pending {
+    color: goldenrod;
+    background-color: rgba(189, 189, 3, 0.103);
+}
+
+.cellAction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cellAction .viewButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px solid rgba(0, 0, 139, 0.596);
+    cursor: pointer;
+}
+
+.cellAction .deleteButton {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px solid rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+}
+
+.viewButton .link {
+    text-decoration: none;
+}

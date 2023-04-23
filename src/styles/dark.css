@@ -1,0 +1,112 @@
+.dark {
+    background-color: #111;
+    color: #999;
+}
+
+.dark .widget {
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+}
+
+.dark .progressbar {
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+}
+
+.dark .chart {
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+}
+
+.dark .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+}
+
+.dark .tableContainer {
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+}
+
+.dark table {
+    background-color: #111;
+}
+
+.dark table .tableCell {
+    color: #999;
+}
+
+.dark .navbar {
+    background-color: #111;
+    color: #999;
+    border-color: #333;
+}
+
+.dark .navbar .search {
+    border-color: rgba(228, 228, 228, 0.219);
+}
+
+.dark .sidebar {
+    background-color: #111;
+    color: #999;
+    border-color: rgba(228, 228, 228, 0.219);
+}
+
+.dark .sidebar .top {
+    border-color: rgba(228, 228, 228, 0.219);
+}
+
+.dark .sidebar .top .logo {
+    color: #999;
+}
+
+.dark .sidebar .center li:hover {
+    background-color: #333;
+}
+
+.dark .sidebar .center .icon {
+    color: #999;
+}
+
+.dark .sidebar .bottom .color-options {
+    border-color: #333;
+}
+
+.dark .datatable .datagrid {
+    color: #999;
+    border: none;
+}
+
+.dark .cellAction .link,
+.dark .cellAction .viewButton,
+.dark .cellAction .deleteButton {
+    color: #999;
+    border: none;
+}
+
+.dark .datatable .datagrid {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+.dark .datatable .datagrid::-webkit-scrollbar {
+    display: none;
+}
+
+
+.dark .newUser input {
+    background-color: transparent;
+}
+
+.dark .singleUserContainer .top .left,
+.dark .singleUserContainer .bottom,
+.dark .newUserContainer .top,
+.dark .newUserContainer .bottom {
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.165);
+}
